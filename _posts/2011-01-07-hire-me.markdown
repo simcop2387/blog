@@ -1,0 +1,17 @@
+---
+author: simcop2387
+date: '2011-01-07 19:12:33'
+layout: post
+slug: hire-me
+status: publish
+title: Hire Me!
+wordpress_id: '247'
+? ''
+: - Personal
+---
+
+I've come into the need of some employment so I'm posting my resume
+up here for all to see, and offer me a job. You can view
+[my resume here](http://simcop2387.info/resume.pdf).
+
+
