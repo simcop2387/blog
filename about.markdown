@@ -1,7 +1,7 @@
 ---
 author: simcop2387
 date: '2010-04-26 03:18:05'
-layout: page
+layout: article
 slug: about
 status: publish
 title: About

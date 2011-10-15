@@ -1,0 +1,46 @@
+  <div class="leftCol nav">
+    <div class="item search">
+      <!-- TODO url -->
+      <form method="get" id="searchform" action="http://symkat.com/search/" >
+        <div>
+          <label class="screen-reader-text" for="q">Search for:</label>
+            <input type="submit" id="searchsubmit" value="Search" />
+            <input type="text" value="" name="q" id="q" />
+        </div>
+      </form>
+    </div>
+    <div class="item">
+      <h2>Latest Articles</h2>
+      <ul>
+        {% for post in site.posts  %}
+        {% if forloop.index <= 5 %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+        </ul>
+    </div>
+    <div class="item">
+      <h2>My Stuff</h2>
+      <ul>
+        <li><a href="http://www.symkat.com/about" title="About The Author">About me</a></li>
+        <li><a>Contact</a></li>
+        <li class="twitli"><a href="https://twitter.com/sym_kat">Follow me on twitter</a></li>
+      </ul>
+    </div>
+    <div class="item">
+      <h2>Friends with Code</h2>
+      <ul>
+        <li><a href="http://www.symkat.com/" rel="friend" title="bloggity blog">Sym Kat</a></li>
+        <li><a href="http://blog.fox.geek.nz/" rel="friend" title="Kent Fredric&#8217;s Blog">Kent Fredric</a></li>
+        <li><a href="http://catonmat.net/" title="Good coders code, great reuse.">Peteris Krumins</a></li>
+        <li><a href="http://substack.net/" rel="friend" title="The Universe of Discord">James Halliday</a></li>
+        <li><a href="http://podcats.in/" rel="friend" title="Blogging Cats">Alastair McGowan-Douglas</a></li>
+      </ul>
+    </div>
+    <div class="item">
+      <h2>Other Places</h2>
+      <ul>
+        <li><a href="http://www.dirkocraft.com/" title="Minecraft server">Dirkocraft</a></li>
+      </ul>
+    </div>
+  </div>

@@ -1,0 +1,85 @@
+html {background-color: #C87D4B; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C87D4B', endColorstr='#B85B1F'); /* for IE */ background: -webkit-gradient(linear, left top, left bottom, from(#C87D4B), to(#B85B1F)); /* for webkit browsers */ background: -moz-linear-gradient(top,  #C87D4B,  #B85B1F); /* for firefox 3.6+ */}
+body {padding-top: 1em; padding-bottom: 2em;}
+
+.clear {clear: both;}
+
+#centered {margin-left: auto; margin-right: auto; width: 960px;}
+#footer {margin-left: auto; margin-right: auto; width: 960px; text-align: center; margin-top: 2em;}
+
+.content {padding-left: 0.5em;}
+.alignright {float: right; margin: 0.4em;}
+.content .head {margin-bottom: 2em;}
+
+.content {font-family: "Droid Sans", "Bitstream Vera Sans", "Dejavu Sans", sans; font-size: 1.1em;}
+
+.katimg {float: left;}
+
+.header {padding-bottom: 2em; text-align: left; padding-left: 4em; padding-top: 1em; margin-right: 0; color: #4A6395}
+.header h1 {font-size: 2.5em; font-family: "Bigshot One", serif; color: #4A6395}
+.logo {float: left; margin-right: 2em;}
+
+.page {/* TODO PATH */ background: #FFF url('../img/rightgrad.png') repeat-y right top; color: black; border: 0.15em solid #C87D4B; border-radius: 10px 10px 10px 10px; -web-kit-border-radius: 10px; -moz-border-radius: 10px; -khtml-border-radius:10px; margin-left: 0em;}
+
+.content {/* TODO PATH */ background: #FFF url('../img/topgrad.png') repeat-x top left; border-top-left-radius: 10px; border-bottom-left-radius: 10px; -web-kit-border-radius-topleft: 10px; -web-kit-border-radius-bottomleft: 10px; -moz-border-radius-topleft: 10px; -moz-border-radius-bottomleft: 10px; -khtml-border-radius-topleft:10px; -khtml-border-radius-bottomleft:10px; padding-bottom: 2em; padding-top: 2em; padding-left: 2em}
+
+.screen-reader-text, .hide {display: none;}
+
+#searchsubmit {background: url("../img/search.png") no-repeat scroll 0 0 #FFFFFF; border: medium none; cursor: pointer; display: block; position: relative; height: 20px; text-indent: -9999px; text-transform: capitalize; top: 22px; left: 130px; width: 20px;}
+
+#q {background: none repeat scroll 0 0 #FFFFFF; width: 110px; border: 1px solid #9E9E9E; padding: 5px 25px 5px 5px; margin-left: 10px; margin-bottom: 10px;}
+
+.content .superhead {margin-bottom: 4em;}
+.content .head .date {float: left;}
+.content .head .tags {float: right; padding-right: 1em}
+.content .head .tags a {display: inline; padding: 0 0.5em 0 0;}
+
+.content h5, .content h6 {color: #627CAF}
+.content h3, .content h4 {color: #6B82AF}
+.content h1, .content h2 {color: #4A6395}
+.content h1 a { color: #4A6395; font-weight: normal; text-decoration: none; cursor: pointer;}
+.content h1 a:hover { color: #6B82AF; text-decoration: underline;}
+
+.nav li {margin-top: 0.5em; margin-bottom: 0.5em; margin-left: 0.5em; list-style: disc; list-style-position: inside;}
+.nav {font-size: 80%}
+.nav h2 {color: #4A6395; font-weight: bold;}
+.nav .item {border-bottom-style: groove; border-bottom-width: 1px}
+.rightCol {width: 170px; border-top-right-radius: 10px; border-right-right-radius: 10px;}
+
+.turners {margin-right: 2em; margin-top: 2em;}
+.turners .left {float: left;}
+.turners .right {float: right;}
+
+a {font-weight: normal;}
+
+.tag { background: url('../img/tag.png') #f1f18d no-repeat right; padding: 0 29px 0 0; height: 32px; float: right; margin: 0 10px 10px 0;}
+.tag a {margin-left: 5px; line-height: 32px;}
+
+.katimg {margin-right: 1.5em; margin-bottom: 1em; margin-left: 1em;}
+
+/*style fixes*/
+ul li, ol li {list-style-position: outside; padding-bottom: 0.5em }
+ul li {list-style-type: circle}
+ol li {list-style-type: decimal}
+td, th {padding: 0.2em; border: 1px black solid}
+td {background-color: #F8F8F8}
+th {background-color: #EEEEEE}
+
+table tr:first-child td {border-top: 0; padding-top: 0.5em}
+table tr:last-child td {border-bottom: 0; padding-bottom: 0.5em}
+table tr td:first-child {border-left: 0; padding-left: 0.5em}
+table tr td:last-child {border-right: 0; padding-right: 0.5em}
+table {margin: 1em 5em 1em 5em}
+
+.content {padding-left: 1em; padding-right: 2em;}
+
+.markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6, .markdown ul, .markdown ol, .markdown dl, .markdown p, .markdown blockquote {padding: 0}
+.markdown .head h1 {padding: 0;}
+.markdown p {padding-top: 0.5em; padding-bottom: 0.5em; text-align: justify; line-height: 1.2em;}
+.markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {padding-top: 1em; font-family: "Judson", serif;}
+.markdown ul, ol {margin-left: 2em; padding-top: 0.5em; padding-bottom: 0.5em;}
+a { color: #6D85B3; font-weight: normal; text-decoration: none; cursor: pointer;}
+a:hover { color: #4A6395; text-decoration: underline;}
+
+#disqus_thread {margin-right: 2em;}
+
+/*pre {overflow: auto} /* temporary */
